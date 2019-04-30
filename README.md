@@ -43,5 +43,6 @@ of the session running your mongodb server, run init.sh
 ./run.sh
 ```
 ![](markdownIMGS/md1.png?raw=true)
+Now copy the url produced by runnign and paste it in your browser and you will be able to access the application.
 ### WELCOME! :)
 ![](markdownIMGS/welcome.png?raw=true)
