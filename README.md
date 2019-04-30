@@ -28,7 +28,6 @@ nodejs and npm. I think npm distributes node with their sofware so you should tr
 [link](https://www.npmjs.com/get-npm).
 
 ### Running
-![](md1.png?raw=true)
 1. Ensure a mongodb session is running in a session if one isn't running already. 
 This __always__ needs to be running. Replace XXXXX with a port like 27018, 27019, 27020, 27021, etc.
 ```
@@ -43,3 +42,6 @@ of the session running your mongodb server, run init.sh
 ```
 ./run.sh
 ```
+![](markdownIMGS/md1.png?raw=true)
+### WELCOME! :)
+![](markdownIMGS/welcome.png?raw=true)
