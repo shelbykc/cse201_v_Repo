@@ -43,6 +43,17 @@ of the session running your mongodb server, run init.sh
 ./run.sh
 ```
 ![](markdownIMGS/md1.png?raw=true)
-Now copy the url produced by runnign and paste it in your browser and you will be able to access the application.
+Now copy the url produced by running and paste it in your browser and you will be able to access the application.
 ### WELCOME! :)
 ![](markdownIMGS/welcome.png?raw=true)
+
+
+
+### TESTING
+You can test success by runnign the included test script
+```
+./sample_test.sh
+```
+
+If connection is made then it will return PASS else it will return FAIL
+![](markdownIMGS/test.png?raw=true)
