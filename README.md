@@ -28,20 +28,18 @@ nodejs and npm. I think npm distributes node with their sofware so you should tr
 [link](https://www.npmjs.com/get-npm).
 
 ### Running
-1. Run db with the start option. This will ask for a port for mongod to listen on. It will start a mongod
-session in a detached tmux session with id 0.
+![](md1.png?raw=true)
+1. Ensure a mongodb session is running in a session if one isn't running already. 
+This __always__ needs to be running. Replace XXXXX with a port like 27018, 27019, 27020, 27021, etc.
 ```
-./db start
+mongod --dbpath .data/db --port XXXXX
 ```
-2. If this is your first time running the project or you'd like to clear the database, run the init script. 
+2. If this is your first time running the project or you'd like to clear the database, in a session outside
+of the session running your mongodb server, run init.sh 
 ```
-./init
+./init.sh
 ```
-3. To serve the project, run the run script. Read its output to get the url it's being served to.
+3. To serve the project, run run.sh. Read its output to get the url it's being served to.
 ```
-./run
-```
-4. When you are finished, stop the mongodb server like so:
-```
-./db stop
+./run.sh
 ```
