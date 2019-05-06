@@ -57,3 +57,18 @@ You can test success by runnign the included test script
 
 If connection is made then it will return PASS else it will return FAIL
 ![](markdownIMGS/test.png?raw=true)
+
+### IN APP ASSISTANCE
+In order to search by multiple tags you will have to type in the search bar as such
+```
+tags: tag1 tag2
+```
+![](markdownIMGS/tags.png?raw=true)
+
+In order to access the list of pending approvals as an admin click on the folder icon beneath the sign in button.
+
+### Dev Documentation
+
+
+
+
