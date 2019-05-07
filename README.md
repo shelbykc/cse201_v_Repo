@@ -69,6 +69,35 @@ In order to access the list of pending approvals as an admin click on the folder
 
 ### Dev Documentation
 
+The main page laout is handled by layout.ejs
+The Models used for applications, comments, the application form, and users can be found in server/models/
+
+### Dev Timeline
+March 19th, 2019
+Requiremnts confirmed with customer
+
+April 11th, 2019
+First iteration complete.
+All basic functionality is complete
+-To add 
+    Multiple Tag Search
+    A easier way for the customer to run the app
+
+April 19th
+Launching the program using Miami's linux server works
+    -To add 
+        Tests
+        List of Users for Admin
+
+April 23rd
+Test complete and funtional. Iteration 2 complete
+    -To add
+        Updated README
+        Further Tests
+        List of Users for Admin
+
+May 7th
+    Final Iteration Complete.
 
 
 
