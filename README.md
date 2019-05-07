@@ -66,7 +66,8 @@ tags: tag1 tag2
 ![](markdownIMGS/tags.png?raw=true)
 
 In order to access the list of pending approvals as an admin click on the folder icon beneath the sign in button.
-
+In order to reach the user's page to adjust user priveleges. Click on the plus user icon next to the folder
+![](markdownIMGS/admin.png?raw=true)
 ### Dev Documentation
 
 The main page laout is handled by layout.ejs
